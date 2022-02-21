@@ -15,7 +15,7 @@ export class AppComponent {
       this.empresas = results;
     },
     error=>{
-      this.message = "La API de Miguel no funciona"
+      this.message = "El API de Miguel no funciona"
     }
    )
   }
